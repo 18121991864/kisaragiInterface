@@ -49,14 +49,6 @@ body::-webkit-scrollbar { width: 0 !important }
   line-height: 140%;
 }
 
-.text-context16 {
-  font-family: 'Abhaya Libre ExtraBold';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 140%;
-}
-
 .text-context14 {
   font-family: 'Abhaya Libre ExtraBold';
   font-style: normal;
