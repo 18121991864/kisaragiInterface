@@ -1,0 +1,129 @@
+* {
+  padding: 0; 
+  margin: 0;
+}
+.corsor-pointer {
+  cursor: pointer;
+}
+
+.h5-menu .ant-drawer-wrapper-body {
+  background: rgba(0,0,0,1);
+}
+.h5-menu .ant-drawer-body {
+  padding: 0;
+}
+
+body {
+  scrollbar-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  /* 第一个方块颜色，第二个轨道颜色(用于更改火狐浏览器样式) */
+  scrollbar-width: thin;
+  /* 火狐滚动条无法自定义宽度，只能通过此属性使滚动条宽度变细 */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: -moz-scrollbars-none;
+}
+
+body::-webkit-scrollbar { width: 0 !important }
+
+.text-title {
+  font-family: 'M PLUS 1';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 107%;
+}
+
+.h5-text-title {
+  font-family: 'M PLUS 1';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 107%;
+}
+
+.text-context16 {
+  font-family: 'Abhaya Libre ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.text-context16 {
+  font-family: 'Abhaya Libre ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.text-context14 {
+  font-family: 'Abhaya Libre ExtraBold';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.text-h3 {
+  font-family: 'M PLUS 1';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.h5-text-h3 {
+  font-family: 'M PLUS 1';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.text-h3-16 {
+  font-family: 'M PLUS 1';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+
+.mint-message {
+  width: 640px !important;
+  top: 200px;
+}
+.h5-mint-message {
+  top: 200px;
+}
+.mint-message .ant-modal-content {
+  background: linear-gradient(110.46deg, rgba(18, 25, 40, 0.9) 31.56%, rgba(15, 23, 40, 0.9) 99.56%);
+  border-radius: 37px;
+  width: 640px;
+  height: 442px;
+}
+.h5-mint-message .ant-modal-content {
+  background: linear-gradient(110.46deg, rgba(18, 25, 40, 0.9) 31.56%, rgba(15, 23, 40, 0.9) 99.56%);
+  border-radius: 37px;
+}
+
+.mint-message .ant-modal-close,.h5-mint-message .ant-modal-close {
+  width: 44px;
+}
+.mint-message .ant-modal-body,.h5-mint-message .ant-modal-body {
+  height: 100%;
+}
+.mint-message .ant-modal-header,.h5-mint-message .ant-modal-header {
+  opacity: 0;
+}
+
+.arrow180 {
+  transform: rotate(180deg);
+}

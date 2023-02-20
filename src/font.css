@@ -1,0 +1,15 @@
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0) !important;
+}
+
+@font-face {
+    font-family: 'Abhaya Libre ExtraBold';
+    src: url('./font/IBMPlexSans-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'M PLUS 1';
+    src: url('./font/IBMPlexSans-Bold.ttf');
+}
+
+

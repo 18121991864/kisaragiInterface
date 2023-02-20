@@ -1,0 +1,11 @@
+
+.walletModal .ant-modal-content {
+  background: #F7F7F7 !important;
+}
+.walletModal .ant-modal-header {
+  background: #F7F7F7 !important;
+}
+
+.walletModal {
+  top: calc(50vh - 92px) !important;
+}
